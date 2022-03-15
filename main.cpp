@@ -9,10 +9,10 @@ int main() {
     Aquadrato = a*a;
     Arettangolo = a*b;
     Atrapezio = ((a + b)*c)/2;
-    cout << "L\' area del triangolo di lato " << a << " e altezza " << b << " e\' " << Atriangolo << endl;
-    cout << "L\' area del quadrato di lato " << a << " e\' " << Aquadrato << endl;
-    cout << "L\' area del rettangolo di lati " << a << " e " << b << " e\' " << Arettangolo << endl;
-    cout << "L\' area del trapezio di base minore " << a << ", di base maggiore " << b << " e di altezza " << c << " e\' " << Atrapezio << endl;
+    cout << Atriangolo << endl;
+    cout << Aquadrato << endl;
+    cout << Arettangolo << endl;
+    cout << Atrapezio << endl;
     return 0;
 }
 
